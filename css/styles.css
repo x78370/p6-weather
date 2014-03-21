@@ -27,6 +27,7 @@ this was the associated styling for the pinstripe js */
 #weather {
 	width: 600px;
 }
+
 h1 {
   font-size: 1.25em;
 }
@@ -40,7 +41,10 @@ h1 {
 body {
   padding: 45px 25px;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  background: #1192d3;
+  background-color: #1192d3;
+  background-image: url(../img/blueabstractbg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 /* original font-face */
 @font-face {
